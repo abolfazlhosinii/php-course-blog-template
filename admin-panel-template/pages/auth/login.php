@@ -8,7 +8,7 @@ if (isset($_POST["but"])) {
 
     foreach ($keywords as $keyword) {
         if (strpos($haking_name, $keyword) !== false) {
-            header("Location:google.com")
+            header("Location:https://google.com/");
             exit;
         }
     }
